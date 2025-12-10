@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Productions - Producción de Eventos</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- Botón de WhatsApp -->
+  <a href="https://wa.me/18498564309?text=Me%20gustaría%20continuar%20con%20la%20página%20web.%20Me%20encantó%20el%20diseño%20que%20me%20diste." 
+   class="whatsapp-button" 
+   target="_blank" 
+   id="whatsappBtn">
+   
+   <i class="bi bi-whatsapp"></i>
+   <div class="whatsapp-notification">1</div>
+
+</a>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="wave-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagen/logos/image.png" alt="Wave Productions Logo" class="logo-en-blanco">
+                <p>Productions</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" id="btn-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto Menu-visible">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#eventos">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="wave-animation"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 animate-on-scroll">
+                    <div class="hero-content">
+                        <h1 class="animate__animated animate__fadeInDown">Creamos experiencias inolvidables</h1>
+                        <p class="animate__animated animate__fadeIn animate__delay-1s">Wave Productions es su socio integral en la producción de eventos. Desde bodas hasta eventos corporativos, nos encargamos de cada detalle para que su evento sea un éxito total.</p>
+                        <a href="#contacto" class="cta-button animate__animated animate__fadeInUp animate__delay-2s">Cotizar mi evento</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <h3>Sonido Profesional</h3>
+                        <p>Sistemas de audio de alta calidad para todo tipo de eventos, con técnicos especializados.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card animate-on-scroll" style="transition-delay: 0.1s">
+                        <div class="service-icon">
+                            <i class="fas fa-tv"></i>
+                        </div>
+                        <h3>Pantallas LED</h3>
+                        <p>Pantallas de última tecnología para transmitir contenido en alta definición.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card animate-on-scroll" style="transition-delay: 0.2s">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Iluminación</h3>
+                        <p>Diseño y ejecución de iluminación para crear ambientes únicos en cada evento.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>Efectos Especiales</h3>
+                        <p>Humo, niebla, confeti y más para hacer de su evento una experiencia sensorial completa.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card animate-on-scroll" style="transition-delay: 0.1s">
+                        <div class="service-icon">
+                            <i class="fas fa-campground"></i>
+                        </div>
+                        <h3>Carpas en Truss</h3>
+                        <p>Estructuras modulares y carpas para eventos al aire libre con la máxima seguridad.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card animate-on-scroll" style="transition-delay: 0.2s">
+                        <div class="service-icon">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <h3>Climatización</h3>
+                        <p>Sistemas de calefacción y enfriamiento para garantizar la comodidad de sus invitados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos Section -->
+    <section class="events" id="eventos">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Tipos de Eventos</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bodas" class="event-image">
+                        <div class="event-overlay">
+                            <h3 class="event-title">Bodas</h3>
+                            <p class="event-description">Transformamos su día especial en un evento mágico e inolvidable con sonido, iluminación y efectos especiales que realicen cada momento.</p>
+                                                    <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">ver mas</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card animate-on-scroll" style="transition-delay: 0.1s">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Eventos Corporativos" class="event-image">
+                        <div class="event-overlay">
+                            <h3 class="event-title">Eventos Corporativos</h3>
+                            <p class="event-description">Soluciones completas para conferencias, lanzamientos, reuniones y fiestas de empresa con tecnología de punta y profesionales expertos.</p>
+                            <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card animate-on-scroll" style="transition-delay: 0.2s">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cumpleaños" class="event-image">
+                        <div class="event-overlay">
+                            <h3 class="event-title">Cumpleaños</h3>
+                            <p class="event-description">Celebraciones únicas para todas las edades con sonido, iluminación, pantallas LED y efectos especiales que harán brillar su fiesta.</p>
+                            <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card animate-on-scroll">
+                        <img src="imagen/logos/logo-en-negro.webp" alt="Activaciones" class="event-image">
+                        <div class="event-overlay">
+                            <h3 class="event-title">Activaciones</h3>
+                            <p class="event-description">Experiencias interactivas y memorables para marcas, con tecnología innovadora que conecta emocionalmente con su audiencia.</p>
+                            <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card animate-on-scroll" style="transition-delay: 0.1s">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Eventos Sociales" class="event-image">
+                        <div class="event-overlay">
+                            <h3 class="event-title">Eventos Sociales</h3>
+                            <p class="event-description">Desde quinceañeras hasta aniversarios, creamos ambientes perfectos que reflejan su personalidad y hacen brillar cada celebración.</p>
+                            <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="event-card animate-on-scroll" style="transition-delay: 0.2s">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Eventos en General" class="event-image">
+                        <div class="event-overlay">
+                            <h3 class="event-title">Eventos en General</h3>
+                            <p class="event-description">Cualquier ocasión merece una producción excepcional. Nos adaptamos a sus necesidades para crear experiencias únicas.</p>
+                            <button class="cta-button animate__animated animate__fadeInUp animate__delay-2s">ver mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section con Formulario y Mapa -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">CONTÁCTANOS</h2>
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-form animate-on-scroll">
+                        <h3 class="mb-4" style="color: var(--wave-cyan);">ENVÍANOS UN MENSAJE</h3>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                            </div>
+                            <div class="mb-3">
+                                <select class="form-control" id="tipoEvento" required>
+                                    <option value="" disabled selected>Tipo de evento</option>
+                                    <option value="boda">Boda</option>
+                                    <option value="corporativo">Evento Corporativo</option>
+                                    <option value="cumpleanos">Cumpleaños</option>
+                                    <option value="activacion">Activación</option>
+                                    <option value="social">Evento Social</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="mensaje" rows="5" placeholder="Cuéntanos sobre tu evento" required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button w-100">ENVIAR MENSAJE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="contact-info animate-on-scroll" style="transition-delay: 0.1s">
+                        <div class="text-center mb-5">
+                            <div class="contact-icon">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <h3 style="color: var(--wave-white);">¿LISTO PARA CREAR UN EVENTO EXTRAORDINARIO?</h3>
+                            <p class="mb-4">Contáctanos para una consulta gratuita y descubre cómo podemos hacer de tu evento una experiencia inolvidable.</p>
+                        </div>
+                        
+                        <div class="text-center">
+<a href="https://wa.me/18498564309?text=Me%20encantó%20el%20diseño" target="_blank" class="cta-button mb-4 d-inline-block">
+    <i class="fab fa-whatsapp me-2"></i> CONTACTAR POR WHATSAPP
+</a>
+
+
+                            
+                            <p class="mb-4">O síguenos en nuestras redes sociales:</p>
+                            
+                            <div class="social-icons">
+                                <a href="https://instagram.com/waveproductionsrd" target="_blank" class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://facebook.com/waveproductionsrd" target="_blank" class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/waveproductionsrd" target="_blank" class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://tiktok.com/@waveproductionsrd" target="_blank" class="social-icon">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Mapa Section -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="map-container animate-on-scroll">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.611345559059!2d-69.93882592409386!3d18.473424469933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89d54cbc3c17%3A0x9c5e6e5e0e7a5e5e!2sSanto%20Domingo%2C%20Rep%C3%BAblica%20Dominicana!5e0!3m2!1ses!2sus!4v1690912345678!5m2!1ses!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="footer-logo">
+                        <i class="fas fa-wave-square"></i>Wave Productions
+                    </div>
+                    <p>Especialistas en producción de eventos con tecnología de punta y creatividad sin límites.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Servicios</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#servicios" class="text-light text-decoration-none">Sonido</a></li>
+                        <li><a href="#servicios" class="text-light text-decoration-none">Pantallas LED</a></li>
+                        <li><a href="#servicios" class="text-light text-decoration-none">Iluminación</a></li>
+                        <li><a href="#servicios" class="text-light text-decoration-none">Efectos Especiales</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fab fa-whatsapp me-2"></i> WhatsApp: +1 (809) 123-4567</li>
+                        <li><i class="fab fa-instagram me-2"></i> @waveproductionsrd</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center pt-3">
+                <p>&copy; 2023 Wave Productions. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
